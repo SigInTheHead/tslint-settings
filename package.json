@@ -1,0 +1,20 @@
+{
+  "name": "tmo-tslint-settings",
+  "version": "0.1.0",
+  "description": "default lint settings",
+  "main": "src/jslint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dev.azure.com/tim-odell/Tooling/_git/TMO.Tooling.LintSettings"
+  },
+  "private": false,
+  "author": "Tim O'Dell",
+  "license": "MIT",
+  "peerDependencies": {
+    "tslint": "^5.11.0"
+  },
+  "dependencies": {}
+}
