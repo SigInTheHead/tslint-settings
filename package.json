@@ -1,6 +1,6 @@
 {
   "name": "tmo-tslint-settings",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "default lint settings",
   "main": "src/jslint.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://dev.azure.com/tim-odell/Tooling/_git/TMO.Tooling.LintSettings"
+    "url": "https://github.com/SigInTheHead/tslint-settings"
   },
   "private": false,
   "author": "Tim O'Dell",
@@ -16,5 +16,9 @@
   "peerDependencies": {
     "tslint": "^5.11.0"
   },
-  "dependencies": {}
+  "keywords": [
+    "tslint",
+    "configuration",
+    "settings"
+  ]
 }

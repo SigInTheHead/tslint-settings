@@ -16,8 +16,8 @@ These are my personal preferences, and were created to save me copy and pasting 
 In the `tslint.json` file update the extends property to 
 ```json
 {
-  "extends": ["tmo-tslint-settings"],
+  "extends": ["tmo-tslint-settings"]
 }
 ```
 
-I personally have the above as the entire contents on my `tslint.json`
+I personally have the above as the entire contents of my `tslint.json`
