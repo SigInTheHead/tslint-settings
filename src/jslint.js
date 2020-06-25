@@ -8,10 +8,15 @@ module.exports = {
     'import-blacklist': [true, 'rxjs/Rx'],
     'interface-name': false,
     'max-classes-per-file': false,
-    'max-line-length': [true, {
-      limit: 140,
-      'ignore-pattern': '^import |^export {(.*?)}'
-    }],
+    'max-line-length': [
+      true,
+      {
+        limit: 180,
+        "check-strings": true,
+        "check-regex": false,
+        'ignore-pattern': '^import |^export {(.*?)}'
+      }
+    ],
     'member-access': [true, 'check-accessor', 'check-parameter-property'],
     'member-ordering': [true, {
       order: [
